@@ -1,8 +1,8 @@
 {
   "name": "react-native-switchable",
-  "version": "1.0.0",
-  "description": " ",
-  "main": "index.js",
+  "version": "1.0.2",
+  "description": "Switch component for react native.",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,6 +15,20 @@
     "selector",
     "switch"
   ],
-  "author": "Saman Missaghian",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/Saman67/react-native-switchable/issues"
+  },
+  "author": "Saman67",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.44.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.10"
+  },
+  "devDependencies": {
+    "react": "^16.0.0",
+    "react-native": "^0.44.0"
+  }
 }

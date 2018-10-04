@@ -2,7 +2,8 @@ import React, {Component} from 'react';
 import { View, Text, TouchableOpacity } from 'react-native';
 import PropTypes from 'prop-types';
 
-class Switch extends Component {
+
+export default class Switchable extends Component {
 
     static defaultProps = {
         values: ['on', 'off'],
@@ -81,7 +82,7 @@ class Switch extends Component {
         if(this.props.onChange && typeof this.props.onChange === 'function')
             this.props.onChange(value, index);
     };
-}
+};
 
 const styles = {
     switchButton: {
@@ -125,6 +126,3 @@ const styles = {
         padding: 8
     }
 };
-
-
-export default Switch
